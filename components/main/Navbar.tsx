@@ -1,6 +1,6 @@
-import { Socials } from "@/constants";
 import Image from "next/image";
-import React from "react";
+
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -37,16 +37,10 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
+        <div className="flex flex-row gap-5 text-white text-xl">
+          <FaLinkedin />
+          <FaGithub />
+          <FaTwitter />
         </div>
       </div>
     </div>
