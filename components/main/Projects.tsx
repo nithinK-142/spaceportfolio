@@ -11,18 +11,21 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/MERNCart.png"
+          src="/project_MERNCart.png"
           title="MERN Cart"
+          link="https://mern-cart-dev.vercel.app/"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/UnsplashGallery.png"
+          src="/project_UnsplashGallery.png"
           title="Unspalash Gallery"
+          link="https://unsplash-gallery-app.vercel.app/"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/SvelteTodos.png"
+          src="/project_SvelteTodos.png"
           title="Svelte Todos"
+          link="https://sveltekittodo.netlify.app/"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>

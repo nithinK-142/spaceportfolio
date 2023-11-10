@@ -2,10 +2,11 @@ import Image from "next/image";
 interface Props {
   src: string;
   title: string;
+  link: string;
   description: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, title, link, description }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
