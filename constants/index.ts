@@ -2,20 +2,20 @@ export const Skill_data = [
   {
     skill_name: "Html 5",
     Image: "/html.png",
-    width: 80,
-    height: 80,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Css",
     Image: "/css.png",
-    width: 80,
-    height: 80,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Java Script",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Tailwind Css",
@@ -44,32 +44,32 @@ export const Skill_data = [
   {
     skill_name: "Type Script",
     Image: "/ts.png",
-    width: 80,
-    height: 80,
+    width: 65,
+    height: 65,
   },
   {
     skill_name: "Next js 13",
     Image: "/next.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Framer Motion",
     Image: "/framer.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Stripe Payment",
     Image: "/stripe.webp",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "Node js",
     Image: "/node-js.png",
-    width: 80,
-    height: 80,
+    width: 75,
+    height: 75,
   },
   {
     skill_name: "Mongo db",
@@ -79,39 +79,24 @@ export const Skill_data = [
   },
 ];
 
-export const Socials = [
-  {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
-];
-
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
     Image: "/html.png",
-    width: 80,
-    height: 80,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Css",
     Image: "/css.png",
-    width: 80,
-    height: 80,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Java Script",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Tailwind Css",
@@ -146,14 +131,14 @@ export const Frontend_skill = [
   {
     skill_name: "Type Script",
     Image: "/ts.png",
-    width: 80,
-    height: 80,
+    width: 65,
+    height: 65,
   },
   {
     skill_name: "Next js 13",
     Image: "/next.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
 ];
 

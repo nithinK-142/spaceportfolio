@@ -18,8 +18,8 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin h-6 md:h-8"
           />
 
-          <span className="font-bold hidden md:block text-gray-300 text-lg">
-            N I T H I N <span className="text-orange-700 font-bold">.</span> me
+          <span className="font-bold font-mono hidden md:block text-gray-300 text-lg">
+            N I T H I N
           </span>
         </a>
 
