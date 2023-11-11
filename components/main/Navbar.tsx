@@ -38,9 +38,15 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5 text-white text-xl">
-          <FaLinkedin />
-          <FaGithub />
-          <FaTwitter />
+          <a href="https://www.linkedin.com/in/nithin142/">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/nithinK-142?tab=repositories">
+            <FaGithub />
+          </a>
+          <a href="https://twitter.com/_nithin142">
+            <FaTwitter />
+          </a>
         </div>
       </div>
     </div>

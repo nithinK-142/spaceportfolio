@@ -10,22 +10,28 @@ import {
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full z-50 bg-transparent text-gray-200 shadow-lg p-[15px]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-evenly flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Socials</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaLinkedin />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
+              <a href="https://www.linkedin.com/in/nithin142/">
+                <span className="text-[15px] ml-[6px]">Linkedin</span>
+              </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaInstagram />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
+              <a href="https://www.instagram.com/_nithin142">
+                <span className="text-[15px] ml-[6px]">Instagram</span>
+              </a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaTwitter />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
+              <a href="https://twitter.com/_nithin142">
+                <span className="text-[15px] ml-[6px]">Twitter</span>
+              </a>
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -40,9 +46,11 @@ const Footer = () => {
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaEnvelope />
-              <span className="text-[15px] ml-[6px]">
-                nithin.sagar.359@gmail.com
-              </span>
+              <a href="mailto:nithin.sagar.359@gmail.com">
+                <span className="text-[15px] ml-[6px]">
+                  nithin.sagar.359@gmail.com
+                </span>
+              </a>
             </p>
           </div>
         </div>
